@@ -15,7 +15,7 @@ function translateToPersian() {
     a.innerHTML = 'فارسی'
     var a = document.getElementById('en')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'انگلیسی'
+    a.innerHTML = 'English'
     var a = document.getElementById('titlepage')
     a.style.fontFamily = 'IRANSans'
     a.innerHTML = ' ۱۴۰۰-۲ برنامه سازی پیشرفته '
@@ -322,6 +322,22 @@ function translateToPersian() {
     a.innerText = `اطلاعات بیشتر`
     a.style.fontFamily = 'IRANSans'
 
+    var a = document.getElementById('prevcourse1')
+    a.innerText = `ترم 982`
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('prevcourse2')
+    a.innerText = `ترم 991`
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('prevcourse3')
+    a.innerText = `ترم 992`
+    a.style.fontFamily = 'IRANSans'
+
+    var a = document.getElementById('prevcourse4')
+    a.innerText = `ترم 001`
+    a.style.fontFamily = 'IRANSans'
+
 }
 
 function translateToEnglish() {
@@ -333,7 +349,7 @@ function translateToEnglish() {
     var a = document.getElementById('per')
     a.classList.remove('persian')
     a.style.fontFamily = "Sans-serif"
-    a.innerHTML = 'Persian'
+    a.innerHTML = 'فارسی'
     var a = document.getElementById('en')
     a.classList.remove('persian')
     a.style.fontFamily = "Sans-serif"
@@ -345,7 +361,7 @@ function translateToEnglish() {
     var a = document.getElementById('subtitle')
     a.classList.remove('persian')
     a.style.fontFamily = "Sans-serif"
-    a.innerHTML = 'guilan University - Faculty of Mathematics'
+    a.innerHTML = 'Guilan University - Faculty of Mathematics'
     var a = document.getElementById('3')
         a.classList.remove('persian')
         a.style.direction = "ltr"
@@ -415,7 +431,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('rolet1')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teacher'
+    a.innerHTML = 'Instructor'
 
     var a = document.getElementById('t2')
     a.style.fontFamily = 'IRANSans'
@@ -635,50 +651,75 @@ function translateToEnglish() {
     var a = document.getElementById('1001')
     a.innerText = `You should use Object-Oriented programming in your project and the application program interfaces (API) will be taken.`
     a.style.textAlign = 'justify'
+    a.style.fontFamily = "Sans-serif"
 
 
     var a = document.getElementById('1002')
     a.innerText = `You're not limited to taught topics for your project, You can use them only if you know them well.`
     a.style.textAlign = 'justify'
+    a.style.fontFamily = "Sans-serif"
 
 
     var a = document.getElementById('1003')
     a.innerText = `Prepare an explanation file for your project (no need to explain every line).`
     a.style.textAlign = 'justify'
-
+    a.style.fontFamily = "Sans-serif"
 
     var a = document.getElementById('1004')
     a.innerText = `You'll have to design a graphical user interface (GUI) for your project.`
     a.style.textAlign = 'justify'
+    a.style.fontFamily = "Sans-serif"
+
 
 
     var a = document.getElementById('1005')
     a.innerText = `In case we find out that you copied your project your score will be 0. Copied projects are clear as a sun!`
     a.style.textAlign = 'justify'
+    a.style.fontFamily = "Sans-serif"
 
 
     //project
     var a = document.getElementById('1006')
     a.innerText = `Project One`
-
+    a.style.fontFamily = "Sans-serif"
 
     var a = document.getElementById('1007')
     a.innerText = `Online shop`
+    a.style.fontFamily = "Sans-serif"
+
 
     var a = document.getElementById('1008')
     a.innerText = `More information`
-
+    a.style.fontFamily = "Sans-serif"
 
     var a = document.getElementById('1009')
     a.innerText = `Project two`
-
+    a.style.fontFamily = "Sans-serif"
 
     var a = document.getElementById('1010')
     a.innerText = `Gravity Ninja`
-
+    a.style.fontFamily = "Sans-serif"
 
     var a = document.getElementById('1011')
     a.innerText = `More information`
+    a.style.fontFamily = "Sans-serif"
+
+    var a = document.getElementById('prevcourse1')
+    a.innerText = `Semester 982`
+    a.style.fontFamily = "Sans-serif"
+
+    var a = document.getElementById('prevcourse2')
+    a.innerText = `Semester 991`
+    a.style.fontFamily = "Sans-serif"
+
+    var a = document.getElementById('prevcourse3')
+    a.innerText = `Semester 992`
+    a.style.fontFamily = "Sans-serif"
+
+    var a = document.getElementById('prevcourse4')
+    a.innerText = `Semester 001`
+    a.style.fontFamily = "Sans-serif"
+
 
 }
 
