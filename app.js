@@ -396,7 +396,7 @@ function translateToEnglish() {
     var a = document.getElementById('ta1')
     a.classList.remove('persian')
     a.style.fontFamily = "Sans-serif"
-    a.innerHTML = 'Teaching Team'
+    a.innerHTML = 'Staff'
 
     var a = document.getElementById('sl1')
     a.classList.remove('persian')
@@ -415,7 +415,7 @@ function translateToEnglish() {
 
     var a = document.getElementById('tatitle')
     a.style.fontFamily = 'IRANSans'
-    a.innerHTML = 'Teaching Team'
+    a.innerHTML = 'Staff'
 
     var a = document.getElementById('777')
     a.style.fontFamily = 'IRANSans'
