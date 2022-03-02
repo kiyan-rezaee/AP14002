@@ -1,6 +1,4 @@
 ## Advance Programming - Spring 2022
-<hr>
-
 
 **Instructors:** Professor [Sadegh Eskandari](https://sadegh28.github.io/eskandari) 
 
